@@ -10,6 +10,10 @@
     text-align: right;
 }
 
+.white-cells {
+    background-color: white;
+}
+
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
@@ -28,4 +32,39 @@ a:visited {
 
 a:active {
     color: firebrick;
+}
+
+.first-table {
+    margin: 0 auto;
+    border: 5px solid black;
+    vertical-align: center;
+    background-color: white;
+}
+
+.second-table {
+    margin: 0 0 auto auto !important;
+    background-color: #e2b716 !important;
+    border: 0 !important;
+    color: white;
+    border-spacing: 15px;
+}
+
+.second-table td, th {
+    padding: 10px;
+}
+
+.second-table caption {
+    color: black;
+}
+
+.second-table col {
+    background-color: peru;
+}
+
+#tbody {
+    background-color: antiquewhite !important;
+}
+
+#tfoot {
+    background-color: coral !important;
 }
