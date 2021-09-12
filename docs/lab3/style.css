@@ -38,6 +38,13 @@ div {
     text-align: center;
 }
 
+iframe {
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    border: 1px solid gray;
+}
+
 .first-table {
     margin: 0 auto;
     border: 5px solid black;
