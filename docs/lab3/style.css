@@ -34,6 +34,10 @@ a:active {
     color: firebrick;
 }
 
+div {
+    text-align: center;
+}
+
 .first-table {
     margin: 0 auto;
     border: 5px solid black;
@@ -59,6 +63,11 @@ a:active {
 
 .second-table col {
     background-color: peru;
+}
+
+.links {
+    text-align: left !important;
+    margin-top: 1000px;
 }
 
 #tbody {
