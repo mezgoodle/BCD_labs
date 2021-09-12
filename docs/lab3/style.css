@@ -17,3 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background: #f3ca20;
 }
+
+a:link {
+    color: cyan;
+}
+
+a:visited {
+    color: seagreen;
+}
+
+a:active {
+    color: firebrick;
+}
