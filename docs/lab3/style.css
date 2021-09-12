@@ -81,6 +81,27 @@ iframe {
     background-color: antiquewhite !important;
 }
 
+#tbody td {
+    width: 33%;
+    height: 33%;
+}
+
+#tbody td>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 #tfoot {
     background-color: coral !important;
+}
+
+#big-images {
+    width: 200%;
+    height: 200%;
+}
+
+#small-images {
+    width: 50%;
+    height: 50%;
 }
