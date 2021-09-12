@@ -105,3 +105,9 @@ iframe {
     width: 50%;
     height: 50%;
 }
+
+#special-text {
+    font-family: Arial sans-serif;
+    font-size: 2em;
+    color: red;
+}
