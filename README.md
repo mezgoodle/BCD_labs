@@ -10,42 +10,25 @@
 
 <p align="center">
  A little info about your project and/ or overview that explains <strong>what</strong> the project is about.
- <blockquote>🌟Hello everyone! This is the repository of my package on Python "sync-folders".🌟</blockquote>
+ <blockquote>🌟Hello everyone! This is the repository "Basics Of Client Development".🌟</blockquote>
 </p>
-
-## The README Checklist
-
-A helpful checklist to gauge how your README is coming along:
-
-- [ ] One-liner explaining the purpose of the module
-- [ ] Necessary background context & links
-- [ ] Potentially unfamiliar terms link to informative sources
-- [ ] Clear, *runnable* example of usage
-- [ ] Installation instructions
-- [ ] Extensive API documentation
-- [ ] Performs [cognitive funneling](https://github.com/noffle/art-of-readme#cognitive-funneling)
-- [ ] Caveats and limitations mentioned up-front
-- [ ] Doesn't rely on images to relay critical information
-- [ ] License
 
 ## Motivation :exclamation:
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+The main reason of this repository is to hold all My labs of "Basics Of Client Development" (html, css and js code)
 
 ## Build status :hammer:
 
 Build status of continus integration i.e. travis, appveyor etc.
 
-> Here you can see build status of [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)/[continuous deployment](https://en.wikipedia.org/wiki/Continuous_deployment):
-
-[![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
+> *dunno how to do it with Github Pages*
 
 ## Badges :mega:
 
 Other badges
 
-[![Build Status](https://img.shields.io/badge/Theme-Template-brightgreen?style=flat-square)](https://www.google.com.ua/)
+[![Theme](https://img.shields.io/badge/Theme-Sites-green?style=flat-square)](https://www.google.com.ua/)
+[![Platform](https://img.shields.io/badge/Platform-Browser-green?style=flat-square)](https://www.google.com.ua/)
  
 ## Screenshots :camera:
 
