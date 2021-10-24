@@ -149,17 +149,6 @@ iframe {
     color: red;
 }
 
-.special-images-td {
-    width: 33%;
-    height: 33%;
-}
-
-.special-images-img {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 li {
     list-style-position: outside;
 }
