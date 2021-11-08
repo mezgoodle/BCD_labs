@@ -30,15 +30,15 @@ div, span {
 
 #kt-image {
     position: relative;
-    top: 40px;
+    top: 6px;
     left: 40px;
 }
 
 #arthas-image {
     position: absolute;
     /*position: fixed;*/
-    top: 520px;
-    left: 40px;
+    top: 430px;
+    left: 1150px;
 }
 
 #float-div {
@@ -56,6 +56,11 @@ div, span {
     top: 20px;
 }
 
+.links-block > a {
+    font-size: x-large;
+    padding: 10px;
+}
+
 a:link {
     color: cyan;
 }
@@ -65,5 +70,35 @@ a:visited {
 }
 
 a:active {
-    color: firebrick;
+    color: gray;
+}
+
+a:hover {
+    transition: 1s ease;
+    color: red;
+}
+
+p:first-child {
+    color: green;
+}
+
+p::first-line {
+    text-transform: lowercase;
+}
+
+p::first-letter {
+    color: red;
+    font-style: italic;
+    font-size: 150%;
+    border: black solid 1px;
+    padding: 2px;
+    margin: 2px;
+}
+
+span::before {
+    content: "♥";
+}
+
+span::after {
+    content: "♥";
 }
