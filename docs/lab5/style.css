@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+body {
+    background-color: #f3ca20;
+}
+
+h1 {
+    text-align: center;
+}
+
+div, span {
+    margin: 5px auto;
+}
+
+#first-div {
+    background-color: #7fd1de;
+}
+
+#second-div {
+    background-color: #b4bbe8;
+}
+
+#first-span {
+    background-color: #ffbcac;
+}
+
+#second-span {
+    background-color: #7fded2;
+}
+
 a:link {
     color: cyan;
 }
