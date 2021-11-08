@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+a:link {
+    color: cyan;
+}
+
+a:visited {
+    color: seagreen;
+}
+
+a:active {
+    color: firebrick;
+}
