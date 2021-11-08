@@ -28,6 +28,24 @@ div, span {
     background-color: #7fded2;
 }
 
+#kt-image {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+
+#arthas-image {
+    position: absolute;
+    top: 540px;
+    left: 40px;
+}
+
+#header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
 a:link {
     color: cyan;
 }
