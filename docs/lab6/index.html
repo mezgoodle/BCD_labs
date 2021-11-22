@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maxim Zavalniuk">
     <title>Кордой</title>
-    <link href="styles/style.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet"/>
 </head>
 <body>
 <div class="container">
@@ -14,11 +14,17 @@
     <div id="info-column">
         <h1>Інформація про розробника:</h1>
         <ul>
-            <li>Ім'я: Максим</li>
-            <li>Прізвище: Завальнюк</li>
+            <li id="name">Ім'я: Максим</li>
+            <li id="surname">Прізвище: Завальнюк</li>
             <li>Посада: розробник</li>
         </ul>
-        <button class="info-button">Отримати повну інформацію</button>
+        <button
+                class="info-button"
+                onclick="showInfo(document.getElementById('name').innerText,
+                                  document.getElementById('surname').innerText)"
+        >
+            Отримати повну інформацію
+        </button>
     </div>
 </div>
 
@@ -32,5 +38,6 @@
 <!--    let hasPhone = false;-->
 <!--    while (!hasPhone) hasPhone = confirm('Продовжити історію про Артура?')-->
 <!--</script>-->
+<script src="scripts/showInfo.js"></script>
 </body>
 </html>
