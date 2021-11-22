@@ -1,0 +1,18 @@
+body {
+    background-color: #f3ca20;
+}
+
+div {
+    flex-grow: 4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#info-column {
+    padding-left: 5px;
+    border-left: 5px dashed black;
+}
