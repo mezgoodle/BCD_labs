@@ -55,25 +55,40 @@
         </button>
         <div>
             <h2>Цитати принца Артура:</h2>
-            <span>"Надіюсь, вірю. Відправляю літак."</span>
-            <span style="text-decoration: underline">"Бережіться труфілів. Ми будемо подорожувати одін."</span>
-            <span>"Легендарний стул Афродіти впав. Мої діти вже старі!"</span>
+            <div id="quotes">
+                <span>"Надіюсь, вірю. Відправляю літак."</span>
+                <span style="text-decoration: underline">"Бережіться труфілів. Ми будемо подорожувати одні."</span>
+                <span>"Легендарний стул Афродіти впав. Мої діти вже старі!"</span>
+            </div>
             <div class="text-buttons">
                 <button
                         class="info-button"
                         onclick="changeQuotesStyle()"
                 >
-                    Змінити текст
+                    Змінити стиль тексту
                 </button>
                 <button
                         class="info-button"
                         onclick="changeHeaderText()"
                 >
-                    Змінити текст
+                    Змінити текст заголовку
+                </button>
+                <button
+                        class="info-button"
+                        onclick="getQuotes()"
+                >
+                    Показати усі цитати
                 </button>
             </div>
+            <button
+                    class="info-button"
+                    onclick="showText()"
+            >
+                Показати прихований текст
+            </button>
         </div>
     </div>
+    <p id="hidden-text"></p>
 </div>
 
 <!--<script>-->
@@ -92,5 +107,7 @@
 <script src="scripts/changeBackground.js"></script>
 <script src="scripts/getTime.js"></script>
 <script src="scripts/changeText.js"></script>
+<script src="scripts/getQuotes.js"></script>
+<script src="scripts/hiddenText.js"></script>
 </body>
 </html>
