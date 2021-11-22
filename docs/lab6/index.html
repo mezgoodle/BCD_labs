@@ -6,18 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maxim Zavalniuk">
     <title>Кордой</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-<div id="header"><h1>Вранці на кордоні Андори ранок</h1></div>
-<script>
-    const defaultValue = 10000;
-    alert('Я ж сказав, я змінився і помер');
+<div class="container">
+    <div><h1>Вранці на кордоні Андори ранок</h1></div>
+    <div id="info-column">
+        <h1>Інформація про розробника:</h1>
+        <ul>
+            <li>Ім'я: Максим</li>
+            <li>Прізвище: Завальнюк</li>
+            <li>Посада: розробник</li>
+        </ul>
+        <button>Отримати повну інформацію</button>
+    </div>
+</div>
 
-    const age = prompt('Сколько років Мальтійському?', defaultValue);
-    if (parseInt(age) === defaultValue) alert(`Правильно! Йому ${age} років`);
-    else alert(`Ні! Йому ${defaultValue} років`)
-    let hasPhone = false;
-    while (!hasPhone) hasPhone = confirm('Продовжити історію про Артура?')
-</script>
+<!--<script>-->
+<!--    const defaultValue = 10000;-->
+<!--    alert('Я ж сказав, я змінився і помер');-->
+
+<!--    const age = prompt('Сколько років Мальтійському?', defaultValue);-->
+<!--    if (parseInt(age) === defaultValue) alert(`Правильно! Йому ${age} років`);-->
+<!--    else alert(`Ні! Йому ${defaultValue} років`)-->
+<!--    let hasPhone = false;-->
+<!--    while (!hasPhone) hasPhone = confirm('Продовжити історію про Артура?')-->
+<!--</script>-->
 </body>
 </html>
