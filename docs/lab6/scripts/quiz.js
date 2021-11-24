@@ -35,5 +35,5 @@ const startQuiz = () => {
         if (answer.toLowerCase() === element.answer) trueAnswers++;
         else falseAnswers++;
     }
-    alert(`Ви відповіли правильно на ${trueAnswers} питання(ь)\nВи відповіли неправильно на ${falseAnswers} питання(ь)`);
+    alert(`✔️Ви відповіли правильно на ${trueAnswers} питання(ь)\n❌Ви відповіли неправильно на ${falseAnswers} питання(ь)`);
 }
