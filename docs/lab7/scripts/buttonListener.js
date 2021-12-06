@@ -22,3 +22,12 @@ const changeHiddenValue = () => {
   const image = document.getElementById('item-image');
   image.hidden = !image.hidden;
 }
+
+const stopItem = () => {
+  const btn = document.getElementById('item-button');
+  btn.removeEventListener('click', showInfo);
+  btn.removeEventListener('click', changeHiddenValue);
+  btn.removeEventListener('click', hidden);
+  document.getElementById('item-stop').removeEventListener('click', stopItem)
+  alert('Робота з картинкою припинена');
+}

@@ -17,6 +17,7 @@
     </div>
     <div id="info-column">
         <h1 id="links">Отримати усі посилання</h1>
+        <h3 id="item-stop" style="text-decoration: underline;">Припинити обробку картинки</h3>
     </div>
 </div>
 <script src="scripts/mouseOver.js"></script>
@@ -27,6 +28,7 @@
     btn.addEventListener('click', showInfo);
     btn.addEventListener('click', changeHiddenValue);
     btn.addEventListener('click', hidden);
+    document.getElementById('item-stop').addEventListener('click', stopItem)
     links.onmouseover = () => {
         alert('https://arizona-rp.com/\nhttps://arizona-rp.com/posts\nhttps://forum.arizona-rp.com/')
     }
