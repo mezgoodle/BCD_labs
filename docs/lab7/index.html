@@ -32,10 +32,15 @@
     <button class="info-button" data-action="houses">Інформація про будинки</button>
     <button class="info-button" data-action="mine">Інформація про шахту</button>
 </div>
+<div>
+    <button class="info-button" data-toggle-id="map">Показати/сховати карту</button>
+    <img src="./images/map.jpg" alt="map" hidden id="map" width="600px" height="400px">
+</div>
 <script src="scripts/mouseOver.js"></script>
 <script src="scripts/buttonListener.js"></script>
 <script src="scripts/highlightList.js"></script>
 <script src="scripts/buttons.js"></script>
+<script src="scripts/toggler.js"></script>
 <script>
     btn = document.getElementById('item-button');
     const hidden = new Hidden();
