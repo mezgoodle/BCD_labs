@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maxim Zavalniuk">
+    <title>Кордой</title>
+    <link href="styles/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <div>
+        <h1 onmouseover="onOverInfo()">Gta SAMP</h1>
+        <button
+                class="info-button"
+                onmouseover="prepareQuiz()"
+        >
+            Пройти вікторину по-Кельтські
+        </button>
+    </div>
+    <div id="info-column">
+        <h1 id="links">Отримати усі посилання</h1>
+        <ul>
+            <li id="name">Ім'я: Максим</li>
+            <li id="surname">Прізвище: Завальнюк</li>
+            <li>Посада: розробник</li>
+        </ul>
+        <button
+                class="info-button"
+                onclick="showInfo(document.getElementById('name').innerText,
+                                  document.getElementById('surname').innerText)"
+        >
+            Отримати повну інформацію
+        </button>
+
+    </div>
+    <p id="hidden-text"></p>
+    <button
+            class="info-button"
+            onclick="generateLinks()"
+    >
+        Згенерувати посилання
+    </button>
+    <button
+            class="info-button"
+            onclick="deleteLinks()"
+    >
+        Видалити посилання
+    </button>
+</div>
+<script>
+    const linkHeader = document.getElementById('links');
+    linkHeader.onmouseover = () => {
+        alert('https://arizona-rp.com/\nhttps://arizona-rp.com/posts\nhttps://forum.arizona-rp.com/')
+    }
+</script>
+<script src="scripts/mouseOver.js"></script>
+</body>
+</html>
