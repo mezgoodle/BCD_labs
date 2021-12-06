@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <div>
-        <h1 onmouseover="onOverInfo()">Gta SAMP</h1>
+        <h1 onmouseover="onOverInfo()">GTA SAMP</h1>
         <button class="info-button" id="item-button">Показати чи сховати популярні предмети</button>
         <img src="./images/items.jpg" alt="items" id="item-image" width="600px" height="300px" hidden>
     </div>
@@ -23,8 +23,10 @@
 <script src="scripts/buttonListener.js"></script>
 <script>
     btn = document.getElementById('item-button');
+    const hidden = new Hidden();
     btn.addEventListener('click', showInfo);
     btn.addEventListener('click', changeHiddenValue);
+    btn.addEventListener('click', hidden);
     links.onmouseover = () => {
         alert('https://arizona-rp.com/\nhttps://arizona-rp.com/posts\nhttps://forum.arizona-rp.com/')
     }
