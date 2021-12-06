@@ -18,10 +18,18 @@
     <div id="info-column">
         <h1 id="links">Отримати усі посилання</h1>
         <h3 id="item-stop" style="text-decoration: underline;">Припинити обробку картинки</h3>
+        <h4>Найшвидші літаки у грі:</h4>
+        <ol id="list">
+            <li>Шамал</li>
+            <li>Невада</li>
+            <li>АТ400</li>
+            <li>Андромада</li>
+        </ol>
     </div>
 </div>
 <script src="scripts/mouseOver.js"></script>
 <script src="scripts/buttonListener.js"></script>
+<script src="scripts/highlightList.js"></script>
 <script>
     btn = document.getElementById('item-button');
     const hidden = new Hidden();
@@ -29,9 +37,14 @@
     btn.addEventListener('click', changeHiddenValue);
     btn.addEventListener('click', hidden);
     document.getElementById('item-stop').addEventListener('click', stopItem)
+
     links.onmouseover = () => {
         alert('https://arizona-rp.com/\nhttps://arizona-rp.com/posts\nhttps://forum.arizona-rp.com/')
     }
+
+    document.getElementById('list').addEventListener('click', highlightHandler);
+
+    new Buttons(document.getElementById('buttons'));
 </script>
 
 </body>
