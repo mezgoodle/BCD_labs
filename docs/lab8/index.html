@@ -5,58 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Maxim Zavalniuk">
-    <title>GTA SAMP</title>
+    <title>HOTS</title>
     <link href="styles/style.css" rel="stylesheet"/>
 </head>
 <body>
+<h1 class="center">Heroes of the Storm</h1>
 <div class="container">
     <div>
-        <h1 onmouseover="onOverInfo()">GTA SAMP</h1>
-        <button class="info-button" id="item-button">Показати чи сховати популярні предмети</button>
-        <img src="./images/items.jpg" alt="items" id="item-image" width="600px" height="300px" hidden>
+        <h2 class="center">Ваша команда</h2>
+        <ol>
+            <li class="tank">Гаррош</li>
+            <li class="bruiser">Ірель</li>
+            <li class="killer">Трейсер</li>
+            <li class="killer">Джайна</li>
+            <li class="healer">Малфуріон</li>
+        </ol>
     </div>
-    <div id="info-column">
-        <h1 id="links">Отримати усі посилання</h1>
-        <h3 id="item-stop" style="text-decoration: underline;">Припинити обробку картинки</h3>
-        <h4>Найшвидші літаки у грі:</h4>
-        <ol id="list">
-            <li>Шамал</li>
-            <li>Невада</li>
-            <li>АТ400</li>
-            <li>Андромада</li>
+    <div>
+        <h2 class="center">Противники</h2>
+        <ol>
+            <li class="tank">Анубарак</li>
+            <li class="bruiser">Малтаель</li>
+            <li class="killer">Фенікс</li>
+            <li class="killer">Хандзо</li>
+            <li class="healer">Тіранда</li>
         </ol>
     </div>
 </div>
-<div id="buttons">
-    <button class="info-button" data-action="boxes">Інформація про бокси</button>
-    <button class="info-button" data-action="houses">Інформація про будинки</button>
-    <button class="info-button" data-action="mine">Інформація про шахту</button>
-</div>
-<div>
-    <button class="info-button" data-toggle-id="map">Показати/сховати карту</button>
-    <img src="./images/map.jpg" alt="map" hidden id="map" width="600px" height="400px">
-</div>
-<script src="scripts/mouseOver.js"></script>
-<script src="scripts/buttonListener.js"></script>
-<script src="scripts/highlightList.js"></script>
-<script src="scripts/buttons.js"></script>
-<script src="scripts/toggler.js"></script>
-<script>
-    btn = document.getElementById('item-button');
-    const hidden = new Hidden();
-    btn.addEventListener('click', showInfo);
-    btn.addEventListener('click', changeHiddenValue);
-    btn.addEventListener('click', hidden);
-    document.getElementById('item-stop').addEventListener('click', stopItem)
-
-    links.onmouseover = () => {
-        alert('https://arizona-rp.com/\nhttps://arizona-rp.com/posts\nhttps://forum.arizona-rp.com/')
-    }
-
-    document.getElementById('list').addEventListener('click', highlightHandler);
-
-    new Buttons(document.getElementById('buttons'));
-</script>
-
 </body>
 </html>
