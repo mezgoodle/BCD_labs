@@ -13,7 +13,7 @@
 <div class="container">
     <div>
         <h2 class="center">Ваша команда</h2>
-        <ol>
+        <ol class="list">
             <li class="tank">Гаррош</li>
             <li class="bruiser">Ірель</li>
             <li class="killer">Трейсер</li>
@@ -23,7 +23,7 @@
     </div>
     <div>
         <h2 class="center">Противники</h2>
-        <ol>
+        <ol class="list">
             <li class="tank">Анубарак</li>
             <li class="bruiser">Малтаель</li>
             <li class="killer">Фенікс</li>
@@ -32,5 +32,13 @@
         </ol>
     </div>
 </div>
+<script src="scripts/listElementClick.js"></script>
+<script>
+    lists = document.getElementsByClassName('list');
+    for (const list of lists) {
+        console.log(list);
+        list.addEventListener('click', click);
+    }
+</script>
 </body>
 </html>
