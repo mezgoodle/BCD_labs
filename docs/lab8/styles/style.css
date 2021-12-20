@@ -32,3 +32,9 @@ div {
 .healer {
     color: green;
 }
+
+.avatar {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
