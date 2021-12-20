@@ -17,3 +17,9 @@ const click = (e) => {
     const name = e.target.textContent;
     alert(name + '\n' + descriptions[name]);
 }
+
+const over = (e) => {
+    if (e.target.style.textDecoration === 'underline') {
+        e.target.style.textDecoration = '';
+    } else e.target.style.textDecoration = 'underline';
+}
