@@ -1,11 +1,11 @@
 <h1 id="project-title" align="center">
   Basics Of Client Development <img alt="logo" width="40" height="40" src="https://raw.githubusercontent.com/mezgoodle/images/master/MezidiaLogoTransparent.png" /><br>
-  <img alt="language" src="https://img.shields.io/badge/language-python-brightgreen?style=flat-square" />
-  <img alt="language" src="https://img.shields.io/github/issues/mezgoodle/Templates?style=flat-square" />
-  <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/mezgoodle/Templates?style=flat-square" />
-  <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/mezgoodle/Templates?style=flat-square" />
-  <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/mezgoodle/Templates?style=flat-square" />
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mezgoodle/Templates?style=flat-square">
+  <img alt="language" src="https://img.shields.io/badge/language-html, css, js-brightgreen?style=flat-square" />
+  <img alt="language" src="https://img.shields.io/github/issues/mezgoodle/BCD_labs?style=flat-square" />
+  <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/mezgoodle/BCD_labs?style=flat-square" />
+  <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/mezgoodle/BCD_labs?style=flat-square" />
+  <img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/mezgoodle/BCD_labs?style=flat-square" />
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mezgoodle/BCD_labs?style=flat-square">
 </h1>
 
 <p align="center">
@@ -14,24 +14,12 @@
 
 ## Motivation :exclamation:
 
-The main reason of this repository is to hold all My labs of "Basics Of Client Development" (html, css and js code)
-
-## Build status :hammer:
-
-Build status of continus integration i.e. travis, appveyor etc.
-
-> *dunno how to do it with Github Pages*
+The main reason of this repository is to hold all My labs of "Basics Of Client Development" (html, css and js code).
 
 ## Badges :mega:
 
-Other badges
-
 [![Theme](https://img.shields.io/badge/Theme-Sites-green?style=flat-square)](https://www.google.com.ua/)
 [![Platform](https://img.shields.io/badge/Platform-Browser-green?style=flat-square)](https://www.google.com.ua/)
- 
-## Screenshots :camera:
-
-![Screenshot 1](https://raw.githubusercontent.com/VsIG-official/images-1/master/SitePictureBCD.png)
 
 ## Tech/framework used :wrench:
 
@@ -43,11 +31,11 @@ Other badges
 
 ## Features :muscle:
 
-With this site You can learn a lot of stuff to start Your web journey
+With this site You can learn a lot of stuff to start Your web journey.
 
 ## Code Example :pushpin:
 
-'Index.html'
+_index.html_
 
 ```HTML
 <!DOCTYPE html>
@@ -103,7 +91,8 @@ With this site You can learn a lot of stuff to start Your web journey
 ```
 
 ## Installation :computer:
-1. Clone this repository:
+
+Clone this repository:
 
 ```
 git clone https://github.com/mezgoodle/BCD_labs.git
@@ -111,19 +100,11 @@ git clone https://github.com/mezgoodle/BCD_labs.git
 
 ## Fast usage :dash:
 
-Just run any .html file in Your browser
-
-## API Reference :fireworks:
-
-> None
+You can open [this](https://mezgoodle.github.io/BCD_labs/) link in your browser right now!
 
 ## Contribute :running:
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Also look at the [CONTRIBUTING.md](https://github.com/mezgoodle/BCD_labs/blob/master/CONTRIBUTING.md).
-
-## Credits :cat::handshake:
-
-> None
 
 ## License :bookmark:
 
