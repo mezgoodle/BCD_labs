@@ -90,6 +90,17 @@ _index.html_
 </html>
 ```
 
+## Labs
+
+* [Lab1](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab1)
+* [Lab2](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab2)
+* [Lab3](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab3)
+* [Lab4](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab4)
+* [Lab5](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab5)
+* [Lab6](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab6)
+* [Lab7](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab7)
+* [Lab8](https://github.com/mezgoodle/BCD_labs/tree/master/docs/lab8)
+
 ## Installation :computer:
 
 Clone this repository:
